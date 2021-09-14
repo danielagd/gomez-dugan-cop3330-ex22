@@ -9,7 +9,8 @@ public class NumComparison
 {
     public static void main( String[] args )
     {
-        int max = 0;
+        // Program finding the max int of three ints
+        int max;
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter the first number: ");
