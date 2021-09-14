@@ -32,7 +32,7 @@ public class NumComparison
 
         if (first == second && second == third) {
             System.out.print("Invalid. Exiting program now...");
-            return;
+            System.exit(0);
         }
 
         System.out.print("The larget number is " + max);
