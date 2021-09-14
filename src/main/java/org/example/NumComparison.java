@@ -30,6 +30,11 @@ public class NumComparison
         if (max < third)
             max = third;
 
+        if (first == second && second == third) {
+            System.out.print("Invalid. Exiting program now...");
+            return;
+        }
+
         System.out.print("The larget number is " + max);
     }
 }
